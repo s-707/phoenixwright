@@ -1,0 +1,126 @@
+h1	{
+	text-align: center;
+}
+
+body	{
+	font-family: "Century Gothic", Tahoma, Verdana;
+	font-size: 20px;
+	color: black;
+	padding: 20px;
+	background: url(courtoom.jpg) no-repeat fixed center;
+	background-size:cover;
+}
+
+#container	{
+	border: 8px outset rgba(78,86,171,0.8);
+	background: rgba(78,86,171,0.2);
+	width: 1300px;
+	height: 3170px;
+	margin: auto;
+	padding: 30px;
+	list-style-position: inside;
+	text-align: center
+}
+
+#main	{
+	border: 6px outset white;
+	background: rgba(255,255,255,0.4);
+	padding: 20px;
+}
+
+#icon	{
+	margin: 10px;
+	box-shadow: -10px 10px 50px black;
+	float: left;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 10px;
+}
+
+#quote	{
+	color: white;
+	text-shadow: 3px 3px 1px black;
+	width: 900px;
+	height: 230px;
+	margin: auto;
+	padding: 15px;
+	background: linear-gradient(rgba(78,86,171,0.35), rgba(78,86,171,0.35)), url(objectionpose.jpg);
+	background-size: 900px 506px;
+	background-position: 100% 40%; 
+	box-shadow: 10px 15px rgba(20, 52, 130, 0.5);
+}
+
+#paragraph	{
+	margin: 30px;
+	padding: 20px;
+	background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(characters.png);
+	background-size: 900px 506px;
+	background-position: 100% 40%; 
+	box-shadow: 0px 20px 10px rgba(0, 0, 50, 0.35);
+}
+
+#footer	{
+	width: 800px;
+	height: 604.57px;
+	margin: auto;
+	background: url(texting.gif) no-repeat;
+	background-size: 800px 604.57px;
+	background-position: 100% 100%;
+}
+
+#footer2	{
+	width: 774px;
+	height: 579px;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(78,86,171,0.5);
+	border: 6px outset grey;
+}
+
+#image	{
+	width: 660px;
+	height: 330px;
+	margin: 40px auto;
+	border: 5px outset grey;
+	padding: 3px;
+}
+
+/* all <a> tags */
+a	{
+	text-decoration-style: dashed;
+}
+
+/* Text color for all links */
+a:link	{
+	color: black;
+}
+
+/* Text color for visited links */
+a:visited	{
+	color: white;
+}
+
+/* Text Color for when you hover over the link */
+a:hover	{
+	color: white;
+	background: rgba(73,75,209,1);
+	border-radius: 70%;
+}
+
+/* Color for when you have clinked on the link */
+a:active	{
+	color: gold;
+}
+
+/* the video */
+iframe	{
+	border: 6px outset grey;
+	margin: 10px;
+}
+
+#gif	{
+	margin: 40px;
+}
